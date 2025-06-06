@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google fonts cdn -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.0/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/JhanviBA-removebg-preview.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I'm <span>Jhanviba</span><br />
+            Zala From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------- About ---------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/20250105_081353-removebg-preview.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+              debitis at libero dolore quam impedit, repellat voluptates nam
+              labore atque provident necessitatibus possimus accusamus
+              doloremque, deleniti ducimus corporis harum! Placeat odio
+              accusantium eos doloremque ad voluptatum ducimus rem debitis!
+              Porro rem, minus commodi earum veniam recusandae. Architecto id
+              nihil esse?
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>UI/UX Desinger</span><br />Designing Web/App Interfaces
+                </li>
+                <li><span>Web Developer</span><br />Web app development</li>
+                <li>
+                  <span>Android Developer</span><br />Building Android apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2025 - current</span><br />Intel-AI for Manufacturing
+                </li>
+                <li><span>2024 - 2025</span><br />Frontend Developer</li>
+                <li><span>2022 - 2024</span><br />UI/UX Desinger</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2022 - 2026</span><br />BE IT (GEC Bhavnagar)</li>
+                <li>
+                  <span>2021 - 2022</span><br />12th - GHSEB (St.Xavier's
+                  School)
+                </li>
+                <li><span>2019 - 2020</span><br />10th GSEB (SKRM)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------- Services --------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa fa-crop" aria-hidden="true"></i>
+            <h2>UI/UX Designer</h2>
+            <p>
+              As a UI/UX Designer, I craft intuitive and aesthetically pleasing
+              user experiences that enhance usability and engagement. My focus
+              is on user-centered design, wireframing, and prototyping to ensure
+              seamless interactions and satisfaction.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa fa-code" aria-hidden="true"></i>
+            <h2>Web Developer</h2>
+            <p>
+              As a Web Developer, I build responsive, dynamic, and
+              high-performance websites using modern technologies. From
+              front-end interfaces to back-end logic, I ensure smooth
+              functionality and optimal performance across devices.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa fa-android" aria-hidden="true"></i>
+            <h2>App Developer</h2>
+            <p>
+              As an App Developer, I develop scalable and user-friendly mobile
+              applications for Android platforms. I specialize in crafting apps
+              that combine sleek UI with efficient performance, ensuring a
+              smooth experience for users on the go.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------- Portfolio --------------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="https://images.pexels.com/photos/22937080/pexels-photo-22937080/free-photo-of-view-of-palm-trees-a-resort-and-turquoise-water-in-the-maldives.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            />
+            <div class="layer">
+              <h3>Travel Website</h3>
+              <p>
+                Wanderlust is a dynamic travel platform featuring curated
+                listings, user reviews, and integrated location mapping.
+              </p>
+              <a
+                href="https://major-project-wanderlust-r930.onrender.com/listings"
+                target="_blank"
+                ><i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://images.pexels.com/photos/16052430/pexels-photo-16052430/free-photo-of-old-silver-camping-bot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            />
+            <div class="layer">
+              <h3>Tiffin Service Website</h3>
+              <p>
+                TiffinWallah is a user-friendly meal delivery platform
+                connecting users with affordable, home-style tiffin providers.
+              </p>
+              <a
+                href="https://your-tiffin-service-website-link.com"
+                target="_blank"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="https://images.pexels.com/photos/6686455/pexels-photo-6686455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            />
+            <div class="layer">
+              <h3>Music Website</h3>
+              <p>
+                HarmonyHub is an engaging music platform where users can stream,
+                explore genres, and discover new artists.
+              </p>
+              <a href="https://your-music-website-link.com" target="_blank">
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- --------------------------- Contact details --------------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <!-- left side of contact -->
+          <div class="contact-left">
+            <h1>Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> jhanvibazala3@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> +91 7984486566</p>
+            <div class="social-icons">
+              <a href="https://github.com/JhanvibaZala" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/jhanviibazala/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/jhanviba-zala-507061283/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://x.com/Jhanviba79" target="_blank"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+            </div>
+            <a href="images/Jhanvi_Sharma_Resume.pdf" class="btn btn2" download
+              >Download CV</a
+            >
+          </div>
+          <!-- right side of contact -->
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">&copy; Copyright Jhanviba</div>
+    </div>
+
+
+
+    <script>
+      let tabLinks = document.getElementsByClassName("tab-links");
+      let tabContents = document.getElementsByClassName("tab-contents");
+      function openTab(tabName) {
+        for (tabLink of tabLinks) {
+          tabLink.classList.remove("active-link");
+        }
+        for (tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+    </script>
+
+    <!------------------ logic for side menu on small screens ------------------>
+
+    <script>
+      let sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <!----------------------------- to get info on google sheets ----------------------------->
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbz5QGsVCnZQwaV-j59crcOMy-rp6WIp2HaTVNek2Nua8foJJdnQ0tiHYi00tyG2Zi5R/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function() {
+                msg.innerHTML=""
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => {
+            msg.innerHTML = "Failed to sent message!";
+            setTimeout(function() {
+                msg.innerHTML=""
+            }, 5000);
+            form.reset();
+          });
+      });
+    </script>
+  </body>
+</html>
