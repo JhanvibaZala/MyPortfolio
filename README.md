@@ -23,13 +23,6 @@ This project is a fully responsive, modern portfolio designed to showcase my ski
 
 ---
 
-## 🚀 Live Demo
-
-🌐 [Click here to view my portfolio](https://your-portfolio-link.com)  
-*(Replace with your actual link)*
-
----
-
 ## 📩 Contact Me
 
 Feel free to connect with me:
@@ -39,11 +32,4 @@ Feel free to connect with me:
 - 🐦 Twitter: [https://x.com/Jhanviba79]
 
 ---
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 ⭐️ If you like this project, feel free to star it! Feedback and suggestions are welcome.
