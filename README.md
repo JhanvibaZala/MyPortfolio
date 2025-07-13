@@ -19,7 +19,7 @@ This project is a fully responsive, modern portfolio designed to showcase my ski
 
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Design:** Fully custom-coded layout with clean UI
-- *(Optional)* Hosting: GitHub Pages / Netlify / Vercel
+- **Hosting**: GitHub Pages / Netlify 
 
 ---
 
